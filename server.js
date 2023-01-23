@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const { authRoute } = require("./src/api/routes/index");
-
+console.log("hello");
 //middleware
 app.use(express.json());
 app.use((req, res, next) => {
